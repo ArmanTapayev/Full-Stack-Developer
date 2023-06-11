@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="" method="">
+      <!-- text input -->
+      <!-- Атрибут name указывает имя формы.
+      Атрибут name используется для ссылки на элементы в JavaScript 
+      или для ссылки на данные формы после отправки формы. -->
+      <label for="firstName">First Name</label>
+      <input type="text" name="firstName" id="firstName" value="john" />
+      <br />
+
+      <!-- password input -->
+      <!-- Атрибут <label> должен быть равен атрибуту id связанного элемента, чтобы связать их вместе. label также может быть привязана к элементу, поместив его внутри элемента <label>. -->
+      <label for="password_id">Password</label>
+      <input
+        type="password"
+        name="password"
+        id="password_id"
+        placeholder="please type your password"
+      />
+      <br />
+
+      <!-- email input -->
+      <!-- Атрибут value определяет значение элемента <input>.
+      Атрибут value используется по-разному для разных типов входных данных:
+      - Для "button", "reset", и "submit" - он определяет текст на кнопке
+      - Для "text", "password", и "hidden" - он определяет начальное (по умолчанию) значение поля ввода
+      - Для "checkbox", "radio", и "image" - он определяет значение, связанное с входными данными (это также значение, которое отправляется при отправке)
+      - Примечание: Атрибут value не может быть использован с <input type="file">. -->
+      <label for="email">Email</label>
+      <input type="email" name="email" value="email@email" />
+      <br />
+      <br />
+
+      <!-- textarea -->
+      <p>Description</p>
+      <textarea name="" id="" cols="30" rows="10"></textarea>
+
+      <!-- radio buttons -->
+      <p>Please select your favorite codding language?</p>
+      <input
+        type="radio"
+        name="coding"
+        id=""
+        value="javascript"
+        checked
+      />JavaScript <input type="radio" name="coding" id="" value="java" />Java
+      <input type="radio" name="coding" id="" value="python" />Python
+
+      <!-- checkboxes -->
+      <p>Please select your favorite codding language?</p>
+      <input
+        type="checkbox"
+        name="programming"
+        id=""
+        value="javascript"
+        checked
+      />JavaScript
+      <input type="checkbox" name="programming" id="" value="java" />Java
+      <input type="checkbox" name="programming" id="" value="python" />Python
+
+      <!-- select input -->
+      <p>Please select your favorite codding language?</p>
+      <select name="languages" id="">
+        <option value="javascript">JavaScript</option>
+        <option value="java">Java</option>
+        <option value="python">Python</option>
+      </select>
+      <br /><br />
+      <!-- input submit -->
+      <!-- <input type="submit" value="submit here" /> -->
+      <button type="submit">submit here</button>
+    </form>
+  </body>
+</html>
