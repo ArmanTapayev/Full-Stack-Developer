@@ -1,0 +1,34 @@
+1. Pixels, Font-size, Width, Height
+- Pixels - absolute values, one dot on the screen
+- Font-size - size of the font
+- Width- widht on an element
+- Height - height of an element
+
+2. Percent Units
+% - Percent. Relative unit/value. Depends on the parent
+
+3. Em Units
+em - RELATIVE, depends on parent
+1em - 16px default browser style
+1em = base value (16px) * number (1) = 16px
+2em = base value (16px) * number (2) = 32px
+2em = base value (10px) * number (2) = 20px
+
+4. Rem Units
+rem - RELATIVE, depends on root
+1rem = base value (16px) * number (1)
+
+5. VIEWPORT UNITS. Vh and Vw
+vh - height - percent of the screen
+vw - widht - percent of the screen
+
+6. Calc Function
+calc()
+Perform math operations + -
+Mix and match values
+
+7. Min-height, Max-height
+height: auto;
+min-height;
+max-height;
+overflow;
