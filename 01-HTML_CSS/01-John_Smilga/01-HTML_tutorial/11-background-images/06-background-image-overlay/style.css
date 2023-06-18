@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div {
+    min-height: 100vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.big-img {
+    background: url('./big.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+/* порядок следования свойств */
+
+.small-img {
+    background: url('./images/folder-img.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.folder-img {
+    background: linear-gradient( to right bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8)), url('./big.jpeg') center/cover no-repeat fixed;
+}
+
+.colorzilla {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f2f230+0,207cca+53,4a8955+100 */
+    background: #f2f230;
+    /* Old browsers */
+    background: -moz-linear-gradient( -45deg, #f2f230 0%, #207cca 53%, #4a8955 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient( -45deg, #f2f230 0%, #207cca 53%, #4a8955 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #f2f230 0%, #207cca 53%, #4a8955 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#f2f230', endColorstr='#4a8955', GradientType=1);
+    /* IE6-9 fallback on horizontal gradient */
+}
